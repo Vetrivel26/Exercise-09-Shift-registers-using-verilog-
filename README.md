@@ -1,8 +1,11 @@
 
 # Experiment--09-Implementation-of Shift-registers-using-verilog-
-### AIM: To implement PISO , PIPO,PISO  using verilog and validating their functionality using their functional tables
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
-### SOFTWARE REQUIRED:   Quartus prime
+### AIM: 
+To implement PISO , PIPO,PISO  using verilog and validating their functionality using their functional tables
+### HARDWARE REQUIRED:  
+– PC, Cyclone II , USB flasher
+### SOFTWARE REQUIRED:   
+Quartus prime
 ### THEORY 
 Shift registers are basically of 4 types. These are:
 
@@ -56,6 +59,7 @@ A Parallel in Parallel out (PIPO) shift register is used as a temporary storage 
 
 
 ### PROGRAM 1:
+~~~
 /*
 Program for  Implementation-of Shift-registers-using-verilog-
 Developed by: VETRIVEL.S
@@ -73,6 +77,7 @@ end
 assign po = temp;
 endmodule 
 */
+~~~
 ### RTL LOGIC  REGISTERS   
 ![rtl 1](https://user-images.githubusercontent.com/95363138/172663764-480dbc80-b312-4bf4-a94e-68b48d84be0f.png)
 ### TIMING DIGRAMS FOR SHIFT REGISTERS
